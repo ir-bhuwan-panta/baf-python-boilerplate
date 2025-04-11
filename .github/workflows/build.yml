@@ -31,6 +31,6 @@ jobs:
 
       - name: Cleanup PSE
         if: always()
-        uses: invisirisk/pse-action@v1.0.20
+        uses: invisirisk/pse-action@dev-test
         with:
           cleanup: "true"  
